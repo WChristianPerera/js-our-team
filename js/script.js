@@ -53,3 +53,17 @@ const myArr = [
         img : 'barbara-ramos-graphic-designer.jpg',
     },
 ];
+
+console.log(myArr[0]);
+console.log(myArr[1]);
+console.log(myArr[2]);
+console.log(myArr[3]);
+console.log(myArr[4]);
+console.log(myArr[5]);
+
+let ceoManager = document.querySelector('.first').innerHTML = myArr[0].name
+let chiefEdit = document.querySelector('.second').innerHTML = myArr[1].name
+let officeMng = document.querySelector('.third').innerHTML = myArr[2].name
+let socialMng = document.querySelector('.fourth').innerHTML = myArr[3].name
+let developer = document.querySelector('.fifth').innerHTML = myArr[4].name
+let graphicDesign = document.querySelector('.sixth').innerHTML = myArr[5].name
